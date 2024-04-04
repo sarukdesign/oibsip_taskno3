@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #E4E9F2;
+}
+/*font-family: "Lexend", sans-serif;*/
+/*font-family: "Noto Sans", sans-serif;*/
+.container{
+    width:100%;
+    height:700px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.img-box{
+    position: relative;
+    width:900px;
+    height:650px;
+    display: flex;
+}
+.img-box img{
+    position: relative;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#convert{
+    position: absolute;
+    width:92%;
+    height: 430px;
+    top: 8%;
+    left: 4%;
+    background:#04D9B2;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+}
+#convert select,p{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 600;
+}
+.box1{
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.box1 h1{
+    width: 100%;
+    padding-bottom: 40px;
+    font-family: "Lexend", sans-serif;
+    color: #ffff ;
+}
+.box1 input{
+    width: 200px;
+    padding:15px 0;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+.box1 input:focus{
+    outline: none;
+}
+.box1 select{
+    width: 150px;
+    padding: 15px 0; 
+    outline: none;
+    border: none;
+    background:#3321A6;
+    color: #E4E9F2;
+    font-size: 0.9rem;
+    cursor: pointer;
+    padding-left: 10px;
+}
+.box1 select option{
+    background:#E4E9F2;
+    color:#070A40;
+}
+.box2{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+.box2 button{
+    width: 200px;
+    padding: 15px 0;
+    border: none;
+    font-family: "Lexend", sans-serif;
+    font-size: 1rem;
+    color: #E4E9F2;
+    background:#070A40;
+    transition: all .4s ease-in-out;
+    margin: 10px 0;
+}
+.box2 button:hover{
+    background: transparent;
+    border: 3px solid #070A40;
+    color: #070A40;
+    cursor: pointer;
+}
+#res{
+  margin-top: 20px;
+  color: #ffff;
+font-size: 1.5rem;
+font-weight: 400;
+}
